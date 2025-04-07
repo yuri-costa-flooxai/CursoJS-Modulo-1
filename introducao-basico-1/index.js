@@ -36,3 +36,40 @@ console.log(a * b); // multiplicacao
 console.log(a / b); // divisao
 console.log(a % b); // resto da divisao
 console.log(a ** b); // potencia
+
+// condicionais
+let cor = "verde";
+
+if (cor == "verde") {
+    console.log("siga");
+} else if (cor == "amarelo") {
+    console.log("atencao");
+} else {
+    console.log("pare");
+}
+// switch
+switch (cor) {
+    case "verde":
+        console.log("siga");
+        break;
+    case "amarelo":
+        console.log("atencao");
+        break;
+    default:
+        console.log("pare");
+}
+// laços de repeticao
+
+// for
+let n = 5;
+
+for (let i = 0; i < 10; i++) {
+    console.log(`${i} X ${n} = ${i * n}`);
+}
+
+// enquanto condicao == true
+while (n > 0) {
+    console.log(n);
+    n--;
+}
+
